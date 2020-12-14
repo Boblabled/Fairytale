@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="917.0">Story.Story</node>
+    <node x="726.0" y="762.0">ThingLike.Place</node>
+    <node x="427.5" y="557.0">Thing.Thing</node>
+    <node x="532.0" y="706.0">ThingLike.Cord</node>
+    <node x="286.0" y="706.0">ThingLike.WeightlessnessDevise</node>
+    <node x="0.0" y="0.0">Interfaces.Command</node>
+    <node x="877.0" y="917.0">Exeptions.WeightlessnessDeviseOnExeption</node>
+    <node x="0.0" y="1127.0">Exeptions.CordLengthExeption</node>
+    <node x="0.0" y="717.5">ThingLike.Rocket</node>
+    <node x="656.0" y="917.0">Enum.Methods</node>
+    <node x="232.0" y="11.0">Interfaces.Calculations</node>
+    <node x="433.0" y="917.0">Enum.Direction</node>
+    <node x="104.25" y="126.0">Human.Human</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ThingLike.WeightlessnessDevise" target="Thing.Thing">
+      <point x="0.0" y="-83.0" />
+      <point x="399.0" y="686.0" />
+      <point x="488.625" y="686.0" />
+      <point x="-20.375" y="49.5" />
+    </edge>
+    <edge source="Human.Human" target="Interfaces.Calculations">
+      <point x="59.25" y="-193.0" />
+      <point x="282.0" y="101.0" />
+      <point x="339.5" y="101.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="ThingLike.Rocket" target="Thing.Thing">
+      <point x="0.0" y="-71.5" />
+      <point x="133.0" y="676.0" />
+      <point x="447.875" y="676.0" />
+      <point x="-61.125" y="49.5" />
+    </edge>
+    <edge source="ThingLike.Place" target="Thing.Thing">
+      <point x="2.8421709430404007E-14" y="-27.0" />
+      <point x="786.0" y="676.0" />
+      <point x="570.125" y="676.0" />
+      <point x="61.125" y="49.5" />
+    </edge>
+    <edge source="Human.Human" target="Interfaces.Command">
+      <point x="-59.25" y="-193.0" />
+      <point x="163.5" y="101.0" />
+      <point x="106.0" y="101.0" />
+      <point x="0.0" y="38.0" />
+    </edge>
+    <edge source="ThingLike.Cord" target="Thing.Thing">
+      <point x="0.0" y="-83.0" />
+      <point x="619.0" y="686.0" />
+      <point x="529.375" y="686.0" />
+      <point x="20.375" y="49.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6000000000000001" x="536.3611111111112" y="538.3333333333333" />
+  <SelectedNodes>
+    <node>ThingLike.Cord</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
